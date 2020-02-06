@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="S01L13 - JSP configuration in deployment descriptor" path="/S01L13_-_JSP_configuration_in_deployment_descriptor" reloadable="true" source="org.eclipse.jst.jee.server:S01L13 - JSP configuration in deployment descriptor"/><Context docBase="S01L14 - Reading URL parameter(s)" path="/S01L14_-_Reading_URL_parameters" reloadable="true" source="org.eclipse.jst.jee.server:S01L14 - Reading URL parameter(s)"/></Host>
+      <Context docBase="S01L13 - JSP configuration in deployment descriptor" path="/S01L13_-_JSP_configuration_in_deployment_descriptor" reloadable="true" source="org.eclipse.jst.jee.server:S01L13 - JSP configuration in deployment descriptor"/><Context docBase="S01L14 - Reading URL parameter(s)" path="/S01L14_-_Reading_URL_parameters" reloadable="true" source="org.eclipse.jst.jee.server:S01L14 - Reading URL parameter(s)"/><Context docBase="S01L15 - Include file(s) in JSP page" path="/S01L15_-_Include_file_in_JSP_page" reloadable="true" source="org.eclipse.jst.jee.server:S01L15 - Include file(s) in JSP page"/></Host>
     </Engine>
   </Service>
 </Server>

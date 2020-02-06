@@ -7,5 +7,9 @@ C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.j
 \S01L11 - Directive\src
 C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3566593075.index
 \S01L05-Hello JSP\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3694262767.index
+\S01L15 - Include file(s) in JSP page\src
 C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2706625502.index
 \S01L13\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\449758217.index
+\S01L14 - Reading URL parameter(s)\src
