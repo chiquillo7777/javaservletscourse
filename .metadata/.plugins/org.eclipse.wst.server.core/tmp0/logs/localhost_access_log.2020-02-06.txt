@@ -1,0 +1,12 @@
+127.0.0.1 - - [06/Feb/2020:12:19:58 -0600] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [06/Feb/2020:12:19:58 -0600] "GET /S01L13_-_JSP_configuration_in_deployment_descriptor/HelloJspPattern HTTP/1.1" 200 135
+127.0.0.1 - - [06/Feb/2020:12:20:48 -0600] "GET / HTTP/1.1" 404 709
+127.0.0.1 - - [06/Feb/2020:12:20:49 -0600] "GET /S01L13_-_JSP_configuration_in_deployment_descriptor/HelloJspPattern2 HTTP/1.1" 200 135
+127.0.0.1 - - [06/Feb/2020:13:04:09 -0600] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:04:10 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:04:58 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet?getValue1=testingParam HTTP/1.1" 200 13
+127.0.0.1 - - [06/Feb/2020:13:06:27 -0600] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:06:28 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet HTTP/1.1" 200 4
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:06:35 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet?getValue1=testingParam HTTP/1.1" 200 12
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:06:49 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet?getValue1=testingParamddffff HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:15:44 -0600] "GET /S01L14_-_Reading_URL_parameters/ParameterServlet?getValue1=testingParamddffff HTTP/1.1" 500 1384

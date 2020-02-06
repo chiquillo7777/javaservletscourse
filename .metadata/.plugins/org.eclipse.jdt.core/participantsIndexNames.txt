@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\527965134.index
+\S01L13 - JSP configuration in deployment descriptor\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2470625522.index
+\S01L12 - Deployment Descriptor\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3703873712.index
+\S01L11 - Directive\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3566593075.index
+\S01L05-Hello JSP\src
+C:\Users\carlos.chiquillo\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2706625502.index
+\S01L13\src

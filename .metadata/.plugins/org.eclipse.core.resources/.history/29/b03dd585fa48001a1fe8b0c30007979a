@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="S01L11 - Directive">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="S01L11_-_Directive"/>
+        <property name="java-output-path" value="/S01L11 - Directive/build/classes"/>
+    </wb-module>
+</project-modules>
