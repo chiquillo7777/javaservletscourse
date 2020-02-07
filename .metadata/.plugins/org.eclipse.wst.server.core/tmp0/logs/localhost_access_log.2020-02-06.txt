@@ -19,3 +19,5 @@
 0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:26:25 -0600] "GET /S01L14_-_Reading_URL_parameters/parameter.jsp?getValue1=test1&getValue2=test2 HTTP/1.1" 200 149
 127.0.0.1 - - [06/Feb/2020:13:40:21 -0600] "GET / HTTP/1.1" 404 709
 0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:40:24 -0600] "GET /S01L15_-_Include_file_in_JSP_page/JSPFILE.jsp HTTP/1.1" 200 152
+127.0.0.1 - - [06/Feb/2020:13:44:15 -0600] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [06/Feb/2020:13:44:18 -0600] "GET /S01L15_-_Include_file_in_JSP_page/JSPFILE.jsp HTTP/1.1" 200 160
