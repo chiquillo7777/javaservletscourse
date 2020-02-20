@@ -6,10 +6,28 @@
         <div class="row">
             <div class="col-lg-6">
                 <h1>PRODUCT CATALOG</h1>
+                <table border="1">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>category</th>
+                        <th>price</th>
+                        <th>Options</th>  
+                    </tr>
 
-            <c:forEach items= "${productsList}" var="productsList">
-                ${productsList.name}
-            </c:forEach>
+                <c:forEach items= "${productsList}" var="productsList">
+
+                    <tr>
+                        <td>${productsList.id}</td>
+                        <td>${productsList.name}</td>
+                        <td>${productsList.description}</td>
+                        <td>${productsList.category}</td>
+                        <td>${productsList.price}</td>
+                        <td>add</td>
+                    </tr>
+                </c:forEach>
+            </table>
         </div>
     </div>
 </div>
