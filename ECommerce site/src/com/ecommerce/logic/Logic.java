@@ -1,7 +1,8 @@
 
-package com.test.logic;
+package com.ecommerce.logic;
 
-import com.test.database.Database;
+
+import com.ecommerce.database.Database;
 
 
 public class Logic 

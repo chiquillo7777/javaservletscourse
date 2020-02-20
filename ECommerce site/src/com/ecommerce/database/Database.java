@@ -1,4 +1,4 @@
-package com.test.database;
+package com.ecommerce.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -55,7 +55,7 @@ public class Database
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/"
                         + "login?"
-                        + "user=root&password=12345&autoReconnect=true&"
+                        + "user=root&password=root&autoReconnect=true&"
                         + "useSSL=false&allowPublicKeyRetrieval=true");
             } 
             catch (ClassNotFoundException | SQLException ex) 

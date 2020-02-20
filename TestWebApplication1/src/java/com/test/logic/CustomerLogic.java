@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.test.logic;
+package com.ecommerce.logic;
 
-import com.test.database.Database;
+import com.ecommerce.Database;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,15 +14,14 @@ import java.util.List;
  *
  * @author balbino.aylagas
  */
-public class CustomerLogic extends Logic
-{
-    public Object getCustomerName(int pId)
+public class UserLogic
+    public User getUserById(int pId)
     {
         Database locDatabase = getDatabase();
         ResultSet result = locDatabase.executeQuery("select * from customer where id="+pId);
         
-        Object customer = null;
-        return customer;
+        User user = null;
+        return user;
     }
     
     public List<Object> getCustomerList()
