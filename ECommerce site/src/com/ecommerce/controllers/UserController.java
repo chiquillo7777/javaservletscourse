@@ -69,6 +69,7 @@ public class UserController extends HttpServlet {
                 email = request.getParameter("email");
                 password = request.getParameter("password");
                 int id = user.login(email, password);
+                request.getSession().invalidate();
                 if( id != 0){
                     request.getSession().setAttribute("userid", id);
                     request.getRequestDispatcher("ProductController").forward(request, response);
