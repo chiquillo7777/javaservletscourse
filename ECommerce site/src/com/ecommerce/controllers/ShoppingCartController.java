@@ -66,19 +66,20 @@ public class ShoppingCartController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String operation = request.getParameter("operation");
-        int productid = Integer.parseInt(request.getParameter("id"));
+       
         ShoppingCartLogic shoppingcart = new ShoppingCartLogic();
         int userid =  Integer.parseInt(request.getSession().getAttribute("userid").toString());
         
         switch(operation){
             case "shoppingcart":
 
-                List<Product> productsList = shoppingcart.getProductsInShoppingCartBYCustomerId(userid);
+                List<Product> productsListShoppingCart = shoppingcart.getProductsInShoppingCartBYCustomerId(userid);
+                request.getSession().setAttribute("productsListShoppingCart", productsListShoppingCart);
                 request.getRequestDispatcher("shoppingcart.jsp").forward(request, response);
                 break;
 
             case "addproduct":
-
+                 int productid = Integer.parseInt(request.getParameter("id"));
                 shoppingcart.addProductToShoppingCart(userid, productid, 1);
                 response.sendRedirect("productCatalog.jsp");
 

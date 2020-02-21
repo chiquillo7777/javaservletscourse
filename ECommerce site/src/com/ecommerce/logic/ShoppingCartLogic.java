@@ -25,8 +25,7 @@ public class ShoppingCartLogic extends Logic {
     public List<Product> getProductsInShoppingCartBYCustomerId(int userid)
     {
         Database locDatabase = getDatabase();
-        ResultSet result = locDatabase.executeQuery("select p.id, p.name p.description, p. category, p.price from users u inner join shoppingcart sc"+
-                 "on u.id = sc.userid inner join shoppingcart_details sd on sc.id = sd.shoppingcartid inner join products p on p.id = sd.productid where u.id=" +userid);
+        ResultSet result = locDatabase.executeQuery("select p.id, p.name, p.description, p. category, p.price from users u inner join shoppingcart sc on u.id = sc.userid inner join shoppingcart_details sd on sc.id = sd.shoppingcartid inner join products p on p.id = sd.productid where u.id=" +userid);
         //locDatabase.executeNonQueryRows("insert data into sales;");
         List<Product> productsList = new ArrayList<>();
 

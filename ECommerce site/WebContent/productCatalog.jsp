@@ -8,7 +8,7 @@
             <div class="col-lg-6">
 
                 <h1>PRODUCT CATALOG</h1>
-                <form method="get" action="ShopincartController">
+                <form method="get" action="ShoppingCartController?operation=shoppingcart">
                     <table border="1">
                         <tr>
                             <th>ID</th>
@@ -34,7 +34,7 @@
                     </c:forEach>
             </form>
             </table>
-                    <a href=http://localhost:8080/ShoppingCartController"><input type="submit" value="shoppingcart"/></a>
+                    <a href="http://localhost:8080/ShoppingCartController?operation=shoppingcart">shopping cart</a>
         </div>
     </div>
 </div>
